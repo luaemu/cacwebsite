@@ -1,0 +1,16 @@
+@keyframes bg-scroll {
+    0% {background-position-x: 0%;}
+    100% {background-position-x: 768px}
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5pt;
+}
+
+
+#banner {
+    animation: bg-scroll 8s infinite linear;
+    background-image: url("game-img.png");
+    text-shadow: 3px 3px 2px black;
+}
